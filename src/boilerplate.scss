@@ -1,0 +1,60 @@
+// web font load
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap&subset=japanese');
+
+@import "./variables";
+@import "~normalize.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-family-base;
+  font-size: 62.5%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  color: $font-color-base;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  background-color: $background-color-light;
+}
+
+#container {
+  padding: 0 50px;
+
+  #container-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+#blog-title {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+
+  #title {
+    margin-bottom: 0;
+
+    > a {
+      color: $font-color-base;
+      font-weight: normal;
+      text-decoration: none;
+    }
+  }
+
+  #blog-description {
+    margin-top: 0;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: center;
+  }
+}

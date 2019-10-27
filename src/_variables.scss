@@ -1,0 +1,39 @@
+// colors
+// -----------------------------------------
+$black: #333;
+$blue: #14213D;
+$yellow: #FCA311;
+$gray: #E5E5E5;
+$white: #fafafa;
+$font-color-base: $black;
+$background-color-light: $white;
+
+// font family's
+// -----------------------------------------
+$font-family-base: 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
+
+// font colors
+// -----------------------------------------
+
+// font size
+// -----------------------------------------
+
+// layout
+// -----------------------------------------
+$contents-width: 1100px;
+
+// z-index
+// Add in increments of 5
+// -----------------------------------------
+$layer: (
+  default: 1,
+);
+
+// break points
+// -----------------------------------------
+$breakpoints: (
+  sp: 'all and (max-width: 559px)',
+  tb: 'all and (min-width: 560px) and (max-width: 959px)',
+  pc: 'all and (min-width: 960px)',
+  md: 'all and (max-width: 959px)'
+);
